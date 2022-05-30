@@ -113,7 +113,7 @@ class SingleMailController extends Controller
 
         // Kafka Config 초기화.
         $conf = new \RdKafka\Conf();
-        $conf->set('metadata.broker.list', 'efk.mt.co.kr:9092');
+        $conf->set('metadata.broker.list', 'your_kafka_domain:port');
 
         // Kafka Producer 초기화 및 사용.
         $producer = new \RdKafka\Producer($conf);

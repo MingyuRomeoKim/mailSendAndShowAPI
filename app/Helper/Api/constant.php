@@ -38,6 +38,6 @@ const _VALIDATION_ERROR_MESSAGE_ = [
 ];
 
 const _KAFKA_TOPICS_ = [
-    'SINGLE_MAILE' => 'test_mailsingle_moneytoday',
+    'SINGLE_MAILE' => 'test_mailsingle',
 ];
 
